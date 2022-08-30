@@ -162,7 +162,6 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
     url("../images/hero/Img_hero.jpg");
     max-width: 1600px;
-    height: 600px;
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
@@ -401,9 +400,12 @@ img {
     gap: 30px;
 }
 
+.clients-list-item {
+    width: calc((100% - 150px) / 6);
+}
+
 .clients-list-link {
     display: flex;
-    width: 170px;
     height: 92px;
     align-items: center;
     justify-content: center;
